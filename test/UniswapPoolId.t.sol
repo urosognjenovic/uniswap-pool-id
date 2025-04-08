@@ -23,7 +23,6 @@ contract UniswapPoolIdTest {
     }
 
     function testGetUniswapPoolID() external view returns (PoolId poolId) {
-        console.logInt(45);
         poolId = s_uniswapPoolId.getUniswapPoolId(
             CURRENCY0,
             CURRENCY1,
