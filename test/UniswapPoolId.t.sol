@@ -8,6 +8,7 @@ import {PoolId} from "v4-core/types/PoolId.sol";
 
 contract UniswapPoolIdTest {
     UniswapPoolId private s_uniswapPoolId;
+    // Constants taken from a confirmed transaction (hash: 0x1ea80205ead17664a8a94e1591478c76c1b02bf6d03a7da6ca2da1beb5584b4e)
     address private constant CURRENCY0 =
         0x558AFaF6FeF52395D558F9fc1ab18A08C7A7548b;
     address private constant CURRENCY1 =
